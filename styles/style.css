@@ -11,16 +11,16 @@ html {
     align-items: center;
     height: 100vh;
     overflow: hidden;
-    background-color: azure;
+    background-color: rgb(48, 48, 48);
 }
 
 #container {
     background-color: black;
-    border: 10px solid rgba(47,47,47,1);
+    border: 10px solid rgb(0, 0, 0);
     border-radius: 4px;
     display: grid;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(100px, auto) repeat(5, 80px);
+    grid-template-rows: minmax(100px, auto) repeat(6, 80px); /*added 1 more row for the 4 new functions implemented */
     gap: 2px;
 }
 
@@ -34,7 +34,7 @@ html {
     padding: 5px;
     font-size: 5.5em;
     font-weight: initial;
-    text-shadow: 1.3px 1.3px #383838;
+    text-shadow: 1.3px 1.3px #a0a0a0;
     margin: 5px;
 }
 

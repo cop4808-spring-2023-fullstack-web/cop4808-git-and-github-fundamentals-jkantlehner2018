@@ -11,6 +11,13 @@
         <main id="calc">
             <div id="container">
                 <div id="display">0</div>
+                <button type="button" class="eulers" value="e" data-key="69">e</button> <!-- used keycode for 'e', had to switch the '='(equals) datakey to the enter keycode '13'-->
+                <button type="button" class="sqrt" value="e" data-key="83">√</button> <!-- used the keycode for 's' = 83-->
+                <button type="button" class="pi" value="e" data-key="18">π</button> <!-- the keycode for p is taken by percent already, instead i used the keycode for 'alt' = 18-->
+                <button type="button" class="exponent" value="e" data-key="86">x<sup>y</button> <!-- used keycode for 'v' which = 86   -->
+
+
+                
                 <button type="button" class="clear" value="clear" data-key="8">AC</button>
                 <button type="button" class="sign" value="sign" data-key="192">+/-</button>
                 <button type="button" class="percent" value="percent" data-key="80">%</button>
@@ -18,7 +25,7 @@
                 <button type="button" class="operand" value="7" data-key="55">7</button>
                 <button type="button" class="operand" value="8" data-key="56">8</button>
                 <button type="button" class="operand" value="9" data-key="57">9</button>
-                <button type="button" class="operator" value="*" data-key="88">*</button>
+                <button type="button" class="operator" value="*" data-key="88">*</button> <!-- 88 = 'x' keycode-->
                 <button type="button" class="operand" value="4" data-key="52">4</button>
                 <button type="button" class="operand" value="5" data-key="53">5</button>
                 <button type="button" class="operand" value="6" data-key="54">6</button>
@@ -29,7 +36,7 @@
                 <button type="button" class="operator" value="+" data-key="61">+</button>
                 <button type="button" id="zero" class="operand" value="0" data-key="48">0</button>
                 <button type="button" class="decimal" value="." data-key="190">.</button>
-                <button type="button" class="equals" value="=" data-key="69">=</button>
+                <button type="button" class="equals" value="=" data-key="13">=</button> <!-- changed from 'e' to keycode for enter which = 13 -->
             </div>  
         </main>
     <script src="./scripts/script.js.download"></script>
