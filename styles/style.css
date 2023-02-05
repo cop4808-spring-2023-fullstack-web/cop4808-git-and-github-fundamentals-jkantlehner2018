@@ -108,3 +108,34 @@ button {
 .percent:active {
     background-color: rgb(123, 189, 255);
 }
+
+
+/* new CSS classes here*/ 
+.eulers {
+    background-color: #e06767;
+    font-weight:bolder;
+}
+.eulers:active{
+    background-color: #db9a9a;
+}
+.pi {
+    background-color: #e06767;
+    font-weight:bolder;
+}
+.pi:active{
+    background-color: #db9a9a;
+}
+.sqrt {
+    background-color: #e06767;
+    font-weight:bolder;
+}
+.sqrt:active{
+    background-color: #db9a9a;
+}
+.exponent {
+    background-color: #e06767;
+    font-weight:bolder;
+}
+.exponent:active{
+    background-color: #db9a9a;
+}
