@@ -1,9 +1,6 @@
 ### John Kantlehner Z23474365
 ---
-Add gif here  
-
-
-
+![New Functionality]()
 ---
 ## Buttons Added 
 
@@ -17,7 +14,7 @@ Add gif here
 
 
 ---
-- ### Button Handling
+- ### Handling for New Buttons
 ```
             else if(buttons[i].classList.contains('e')) {
                   inputE(displayValue);
@@ -46,7 +43,7 @@ Add gif here
                 displayValue = Math.sqrt(num).toString();
             }
 ```
-- ### Exponent operation added in function operate(x, y, op)
+- ### Exponent operation added in operate function
 ```
         
             else if(op === 'exponent'){
