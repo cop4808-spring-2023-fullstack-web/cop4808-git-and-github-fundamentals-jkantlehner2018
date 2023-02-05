@@ -37,14 +37,49 @@ function clickButton() {
                 updateDisplay();
             } else if(buttons[i].classList.contains('percent')) {
                 inputPercent(displayValue);
-                updateDisplay();
-            } else if(buttons[i].classList.contains('sign')) {
+                updateDisplay();   
+            }
+
+
+
+
+            else if(buttons[i].classList.contains('e')) {
+                  inputE(displayValue);
+                  updateDisplay();
+            }
+            else if(buttons[i].classList.contains('sqrt')) {
+                  inputSqrt(displayValue);
+                  updateDisplay();
+            }
+            else if(buttons[i].classList.contains('pi')) {
+                  inputOperand(Math.PI.toFixed(9));
+                  updateDisplay();
+
+            }
+            else if(buttons[i].classList.contains('exponent')) {
+                  inputOperator(buttons[i].value);
+            }
+
+
+
+
+
+
+
+
+
+
+            else if(buttons[i].classList.contains('sign')) {
                 inputSign(displayValue);
                 updateDisplay();
-            } else if(buttons[i].classList.contains('clear'))
+            } else if(buttons[i].classList.contains('clear')) 
                 clearDisplay();
                 updateDisplay();
-        }
+            }
+
+
+            
+
     )}
 }
 
@@ -143,6 +178,7 @@ function inputPercent(num) {
     displayValue = (num/100).toString();
 }
 
+
 function inputSign(num) {
     displayValue = (num * -1).toString();
 }
@@ -177,8 +213,28 @@ function operate(x, y, op) {
         return x / y;
         }
     }
+
+    
+
+    
+
+     
+    else if(op === 'exponent'){
+        return Math.pow(x,y);
+    }
+    
 }
 
 function roundAccurately(num, places) {
     return parseFloat(Math.round(num + 'e' + places) + 'e-' + places);
+}
+
+
+
+function inputE(num) {
+    displayValue = Math.exp(num).toString();
+}
+
+function inputSqrt(num) {
+    displayValue = Math.sqrt(num).toString();
 }
