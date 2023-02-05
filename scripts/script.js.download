@@ -39,35 +39,22 @@ function clickButton() {
                 inputPercent(displayValue);
                 updateDisplay();   
             }
-
-
-
-
-            else if(buttons[i].classList.contains('e')) {
+            else if(buttons[i].classList.contains('e')) {   //handled by inputE function
                   inputE(displayValue);
                   updateDisplay();
             }
-            else if(buttons[i].classList.contains('sqrt')) {
+            else if(buttons[i].classList.contains('sqrt')) { //handled by iputSqrt function
                   inputSqrt(displayValue);
                   updateDisplay();
             }
-            else if(buttons[i].classList.contains('pi')) {
+            else if(buttons[i].classList.contains('pi')) { //inserted as operand
                   inputOperand(Math.PI.toFixed(9));
                   updateDisplay();
 
             }
-            else if(buttons[i].classList.contains('exponent')) {
+            else if(buttons[i].classList.contains('exponent')) { //inserted as operation into function operate(x, y, op)
                   inputOperator(buttons[i].value);
             }
-
-
-
-
-
-
-
-
-
 
             else if(buttons[i].classList.contains('sign')) {
                 inputSign(displayValue);
@@ -212,14 +199,7 @@ function operate(x, y, op) {
         } else {
         return x / y;
         }
-    }
-
-    
-
-    
-
-     
-    else if(op === 'exponent'){
+    } else if(op === 'exponent'){ //exponent function added
         return Math.pow(x,y);
     }
     
@@ -230,7 +210,8 @@ function roundAccurately(num, places) {
 }
 
 
-
+//new operator functions using built in Math methods
+// uses current displayValue as operand
 function inputE(num) {
     displayValue = Math.exp(num).toString();
 }
