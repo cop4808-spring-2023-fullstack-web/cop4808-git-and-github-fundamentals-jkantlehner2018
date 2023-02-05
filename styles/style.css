@@ -111,11 +111,11 @@ button {
 
 
 /* new CSS classes here*/ 
-.eulers {
+.e {
     background-color: #e06767;
     font-weight:bolder;
 }
-.eulers:active{
+.e:active{
     background-color: #db9a9a;
 }
 .pi {
