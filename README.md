@@ -1,9 +1,11 @@
 ### John Kantlehner Z23474365
 ---
+### Using https://github.com/mrbuddh4/calculator as the base calculator, 4 new buttons have been implemented
 <p align = "center">
     <img src = https://github.com/cop4808-spring-2023-fullstack-web/cop4808-git-and-github-fundamentals-jkantlehner2018/blob/main/calculator.gif alt = "calculator gif" >
 </p>
 ---
+
 ## Buttons Added 
 
 

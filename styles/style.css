@@ -20,7 +20,7 @@ html {
     border-radius: 4px;
     display: grid;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(100px, auto) repeat(6, 80px);
+    grid-template-rows: minmax(100px, auto) repeat(6, 80px); /* added 6th row so all the buttons fit evenly in the container */
     gap: 2px;
 }
 
@@ -109,7 +109,7 @@ button {
     background-color: rgb(123, 189, 255);
 }
 
-/* new CSS classes here*/ 
+/* new CSS classes for the added buttons*/ 
 .e {
     background-color: #e06767;
     font-weight:bolder;
