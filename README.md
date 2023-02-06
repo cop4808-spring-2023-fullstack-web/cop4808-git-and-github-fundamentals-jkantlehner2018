@@ -1,6 +1,6 @@
 ### John Kantlehner Z23474365
 ---
-![New Functionality]()
+![](https://github.com/cop4808-spring-2023-fullstack-web/cop4808-git-and-github-fundamentals-jkantlehner2018/blob/main/calculator.gif)
 ---
 ## Buttons Added 
 
